@@ -1,0 +1,38 @@
+name: ClearTask
+description: A time management App.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_timezone_updated_gradle: ^2.0.3
+  permission_handler: ^10.2.0
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.5
+  sqflite: ^2.2.8+1
+  path: ^1.9.0
+  flutter_local_notifications: ^18.0.1
+  path_provider: ^2.0.15
+  timezone: ^0.10.0
+  email_validator: ^3.0.0
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/google_icon.png
+    - assets/images/bg_reg.png
+    - assets/images/user.png
